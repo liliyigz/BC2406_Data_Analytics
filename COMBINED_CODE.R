@@ -1,4 +1,3 @@
-# Ayesha Code --------------------------------
 library(data.table)
 library(rpart)
 library(rpart.plot)   
@@ -115,7 +114,6 @@ round(prop.table(table),3)
 # training on unbalanced data: accuracy 97%, misclassification error 3%
 # training on balanced data: accuracy 88.77%, misclassification error 11.23%, accuracy decreases. 
 
-# CHRIS CODE -----------------------------------
 install.packages("car")
 install.packages("caret")
 install.packages("carData")
@@ -199,7 +197,6 @@ prediction <- factor(prediction, levels = levels(testset$failure))
 confusion_matrix <- confusionMatrix(prediction, testset$failure)
 confusion_matrix
 
-# Sailesh Code ----------------------------------------
 library(data.table)
 library(rpart)
 library(rpart.plot)   
@@ -302,7 +299,6 @@ RMSE.m2.test
 # Check Min and Max Absolute Error on Test Set
 summary(abs(residuals_test2))
 
-# Jian Bo Code-----------------------------------------------------
 library(data.table)
 library(caTools)
 library(rpart)
